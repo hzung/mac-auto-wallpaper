@@ -130,3 +130,4 @@ dist
 .pnp.*
 index_dest.htm
 wallpaper.png
+.DS_Store
