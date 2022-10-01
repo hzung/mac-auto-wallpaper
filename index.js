@@ -3,7 +3,6 @@ const puppeteer = require('puppeteer');
 const indexSrcFilePath = __dirname + "/index_src.html";
 const indexDestFilePath = __dirname + "/index_dest.html";
 const imagesPath = __dirname + "/images";
-const contentPath = __dirname + "/content.txt";
 const { exec } = require("child_process");
 const request = require('request');
 
