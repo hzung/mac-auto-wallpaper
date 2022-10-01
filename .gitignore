@@ -129,5 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 index_dest.html
+wallpaper_*.png
 wallpaper.png
 .DS_Store
