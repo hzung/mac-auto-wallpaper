@@ -39,8 +39,17 @@ var images = fs.readdirSync(imagesPath);
 var imageRandIndex = randIndex(images.length);
 var imagePath = imagesPath + "/" + images[imageRandIndex];
 
+function result_images() {
+    return fs.readdirSync(__dirname).filter(item => item.endsWith(".png"));
+}
+
+function result_contain(index) {
+    var images = result_images().filter(item => item.endsWith("_" + index + ".png"));
+    return images.length > 0;
+}
+
 getRemoteContent().then(content => {
-    var lines = content.split('\n').map(item => {
+    var lines = content.split('\n').filter(item => item.split('|').length == 2).map(item => {
         const tokens = item.split('|');
         const title = tokens[0];
         const content = tokens[1];
@@ -49,9 +58,21 @@ getRemoteContent().then(content => {
             content
         }
     })
+    
+    var imgs = result_images();
+    if (lines.length <= imgs.length) {
+        imgs.forEach(img => {
+            fs.rmSync(__dirname + "/" + img);
+        });
+    }
     var contentRandIndex = randIndex(lines.length);
+    while (result_contain(contentRandIndex)) {
+        contentRandIndex = randIndex(lines.length);
+    }
+    
     var line = lines[contentRandIndex];
     var wallpaperPath = __dirname + "/wallpaper_" + contentRandIndex + ".png";
+
     var indexContent = readContent(indexSrcFilePath);
     indexContent = indexContent.replaceAll("!!IMAGE", imagePath);
     indexContent = indexContent.replaceAll("!!TITLE", line.title);
