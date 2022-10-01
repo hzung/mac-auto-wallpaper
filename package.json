@@ -1,0 +1,22 @@
+{
+  "name": "mac-auto-wallpaper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzung/mac-auto-wallpaper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hzung/mac-auto-wallpaper/issues"
+  },
+  "homepage": "https://github.com/hzung/mac-auto-wallpaper#readme",
+  "dependencies": {
+    "puppeteer": "^18.0.5"
+  }
+}
