@@ -128,6 +128,6 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-index_dest.htm
+index_dest.html
 wallpaper.png
 .DS_Store
