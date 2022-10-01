@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/hzung/mac-auto-wallpaper#readme",
   "dependencies": {
-    "puppeteer": "^18.0.5"
+    "puppeteer": "^18.0.5",
+    "request": "^2.81.0"
   }
 }
