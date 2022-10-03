@@ -176,3 +176,159 @@ wedge|Traditionally, a three-push move with each push extending further and the 
 wedge flag|A wedge-shaped or three-push pullback in a trend, such as a high 3 in a bull trend (a type of bull flag) or a low 3 in a bear trend (a type of bear flag). Since it is a with-trend setup, enter on the first signal.
 wedge reversal|A wedge that is reversing a bull trend into a bear trend or a bear trend into a bull trend. Since it is countertrend, unless it is very strong, it is better to take a second signal. For example, if there is a bear trend and then a descending wedge, wait for a breakout above this potential wedge bottom and then try to buy a pullback to a higher low.
 with trend|Refers to a trade or a setup that is in the direction of the prevailing trend. In general, the direction of the most recent 5 minute chart signal should be assumed to be the trend’s direction. Also, if most of the past 10 or 20 bars are above the moving average, trend setups and trades are likely on the buy side.
+17t|17 Tick Trap. Trader entering with stop order usually needs 18 ticks to make 4 points. Stopping at 17 ticks traps traders just shy of goal. Many will exit, sometimes creating reversal
+20GB|Twenty Gap Bars, about 20 consecutive bars that have not touched the moving average
+41t|41 Tick Trap. Trader entering with stop order usually needs 42 ticks to make 10 points. Stopping at 41 ticks traps traders just shy of goal. Many will exit
+5t|5 Tick Trap. Trader entering with stop order usually needs 6 ticks to make 1 point. Stopping at 5 ticks traps traders just shy of goal. Many will exit, sometimes creating reversal
+9t|9 Tick Trap. Trader entering with stop order usually needs 10 ticks to make 2 points. Stopping at 9 ticks traps traders just shy of goal. Many will exit, sometimes creating reversal
+AIL|Always In Long
+AIS|Always In Short
+AODD|Almost Outside Down Day is a reversal down from above yesterday’s high and a sell climax to just above yesterday’s low and a reversal up
+AOUD|Almost Outside Up Day is a reversal up from below yesterday’s low and a buy climax to just below yesterday’s high and a reversal down
+ATH|All Time High
+B|Buy or Long, depending on context
+BA|Buy Above or probably buyers at the high of the bar
+BB|Buy Below, or probably buyers at the low of the bar and scaling in lower
+BDBU|Big Down, Big Up
+BDBUC|Big Down, Big Up, big Confusion so trading range likely
+BLSHS|Buy Low, Sell High, Scalp
+BO|Breakout
+BOM|Breakout Mode means trading range. About 50% chance successful breakout up or down, and then about a measured move based on the height of trading range. 50% chance 1st breakout up or down will reverse
+BP|Breakout Pullback
+BRN|Big Round Number like 2100, 2200
+BSB|Buy Signal Bar
+BT|Breakout Test or Bought, depending on context
+BTC|Buy The Close bull trend so traders will buy the close of bull bar closing near its high or buy above bull bar that closes near its high
+BUBD|Big Up, Big Down
+BUBDC|Big Up, Big Down, big Confusion so trading range likely
+BVT|Buy Vacuum test of resistance
+BX|Buy Climax, one or more big bull bars closing near their highs
+C|Close
+CH|Channel
+DB|Double Bottom, or two consecutive bars with identical lows
+DBL|Disappointed Bulls, bulls who bought recent strong bull bar are disappointed by bear bar and might sell out of their longs around the close of that bull bar, which could create micro double top and start reversal down
+DBR|Disappointed Bears, bears who sold recent strong bear bar are disappointed and might buy back their shorts around the close of that bear bar, which could create micro double bottom and start reversal up
+DT|Double Top, or two consecutive bars with identical highs
+EB|Entry Bar
+EG|Exhaustion Gap, a gap at any kind at the end of a trend, just before a reversal (only certain in hindsight)
+EMA|20 bar Exponential Moving Average
+EOD|End of Day
+ET|Expanding Triangle
+FBO|Failed BreakOut
+FF|Final Flag, usually a horizontal pattern after a trend. The breakout often fails and reverses
+FOMC|Federal Open Market Committee meeting and announcement
+FT|Follow Through
+G|Gap
+GB|Gap Bar
+GD|Gap Down
+GU|Gap Up
+GUB|Give-up Bar, breakout that often leads to a swing
+GX|Globex Session
+GXH|Globex High
+GXL|Globex Low
+H|High or High of Day
+H1|One legged pullback in a bull move
+H2|Two legged pullback in a bull move, but it can also be a 2nd reversal up from a selloff (variation of a double bottom)
+H3|Three legged pullback in a bull move, which usually means a wedge bull flag or a wedge bottom
+H4|High 4 bottom or bull flag, 4 legged bear channel, often consecutive High 2 pullbacks
+HFT|High Frequency Trading
+HH|Higher High
+HL|Higher Low
+HOD|High of the Day
+HOY|High of Yesterday
+HP|High Probability
+HSB|Head and Shoulders Bottom, a continuation pattern in both bull and bear markets that sometimes is a reversal pattern
+HST|Head and Shoulders Top, a bull continuation pattern in both bull and bear markets that sometimes is a reversal pattern
+ib|Inside bar, the high of the bar is at or below the high of the prior bar and the low is at or above the low of the prior bar
+ii|Consecutive inside bars, Breakout Mode, so both buy and sell signal
+iii|Three inside bars in a row, Breakout Mode, so both buy and sell signal
+ioi|Outside bar surrounded by Inside bars
+ioii|Consecutive inside bars after an outside bar, Breakout Mode setup so both buy and sell signal bar
+L|Low or Low of Day
+L1|One legged PullBack in a bear move
+L2|Two legged PullBack in a bear move, but it can also be a 2nd reversal down from a rally (variation of a double top)
+L3|Three legged PullBack in a bear move, which usually means a wedge bear flag or a wedge top
+L4|Low 4 top or bear flag, 4 legged bull channel, often consecutive Low 2 pullbacks
+LH|Lower High
+LL|Lower Low
+LOD|Low of the Day
+LOM|Limit Order Market so easier to make money with limit orders than with stop orders. Bears will probably sell above and many will scale in higher, and bulls will buy below and many will scale in lower. Both expect small moves and will mostly scalp
+LOY|Low of Yesterday
+LP|Low Probability so swing only or wait
+MA|Moving Average
+MAG|Moving Average Gap Bar
+MDB|Micro Double Bottom
+MDR|Midday reversal is a reversal in the middle of the day, sometimes exactly at bar 40 or 41, and sometimes leads to opposite trend for rest of day
+MDT|Micro Double Top
+MG|Measuring Gap, a gap of any kind that can lead to a measured move (only certain in hindsight)
+MGA|Magnet Above
+MGB|Magnet Below
+MGN|Magnet
+MM|Measured Move
+MP|Midpoint
+MRV|Minor Trend Reversal so trading range or pullback more likely than opposite trend
+MTR|Major Trend Reversal
+MW|MicroWedge, a wedge formed by only 3 – 4 bars
+NL|NeckLine
+NW|Nested Wedge, 3rd leg is smaller wedge
+OB|Outside bar, the high is at or above the high of the prior bar and the low is at or below the low
+OD|Outside down bar, which means its high is at or above the high of the prior bar and its low is at or below the low of the prior bar and its close is below the open
+ODD|Outside Down Day, which means a reversal down from above yesterdays high to below yesterdays low
+OO|Consecutive outside bars, Breakout Mode, so both Buy and Sell signal. In a bull trend, it can be top or bull flag. In a bear trend, it can be bottom or bear flag
+OOD|Open of Day
+ORV|Opening Reversal
+ORVD|Opening Reversal Down
+ORVU|Opening Reversal Up
+OU|Outside up bar, which means its high is at or above the high of the prior bar and its low is at or below the low of the prior bar and its close is above the open
+OUD|Outside Up Day, which means a reversal up from below yesterdays low to above yesterdays high
+OW|Open of Week
+P|Probability
+PB|Pullback
+PBX|Parabolic Buy Climax
+PH|Possible High of day or swing high, reasonable sell setup. Since it is a reversal trade, it is not high probability so it is a swing setup
+PL|Possible Low of day or swing low, reasonable buy setup. Since it is a reversal trade, it is not high probability so it is a swing setup
+PSX|Parabolic Sell Climax
+PT|Profit Target
+PTG|Profit Taking
+PW|Parabolic Wedge
+RB|Reversal Bar
+REV|Reversal
+REVD|Reversal Down
+REVU|Reversal Up
+RR|Risk Reward, or Risk Reward Ratio, most easily thought of as the size of your stop compared to the size of your profit target
+RS|Resistance
+S|Sell or Short, depending on context
+SA|Sellers Above, or probably sellers at the high of the bar and scaling in higher
+SB|Sellers Below or probably sellers at the low of the bar
+SBL|Scale in Bulls
+SBR|Scale in Bears
+SCB|Spike and Channel Bottom
+SCT|Spike and Channel Top
+SH|Swing High
+SL|Swing Low
+SP|Support
+SSB|Sell Signal Bar
+STC|Sell The Close bear trend so traders will sell the close of bear bar closing near its low or sell below bear bar that closes near its low
+SVT|Sell Vacuum test of support
+SX|Sell Climax, one or more big bear bars closing near their lows
+TBTL|Ten Bars, Two Legs correction
+TE|Traders Equation (need chance of success times the reward greater than chance of loss times the risk)
+TGA|Target Above
+TGB|Target Below
+TL|Trendline
+TR|Trading Range
+TRD|Trading Range Day
+TRES|Trend Resumption
+TRESD|Trend Resumption Down
+TRESU|Trend Resumption Up
+TREV|Trend Reversal
+TREVD|Trend Reversal Down
+TREVU|Trend Reversal Up
+TRI|Triangle means trading range with 5 or more reversals with either 2 higher lows and 1 lower high or 1 higher low and 2 lower highs. 50% chance breakout up or down, and 50% chance 1st breakout fails, Breakout Mode
+TRO|Trading Range Open so mostly a limit order market and Breakout Mode. The bulls will look for a double bottom or wedge bottom and then a swing up. The bears want a double top or wedge top and then a swing down
+TTR|Tight Trading Range, limit order market, bad for scalping with stop orders. Most traders should wait
+TTRD|Trending Trading Range Day
+TTRDD|Trending Trading Range Day down
+TTRDU|Trending Trading Range Day up
+TW|Truncated Wedge
+W|Wedge or anything similar, like any 3 push pattern
