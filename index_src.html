@@ -5,21 +5,39 @@
                 font-family: RobotoBold;
                 src: url('./Roboto/Roboto-Bold.ttf');
             }
+
             @font-face {
                 font-family: RobotoRegular;
                 src: url('./Roboto/Roboto-Regular.ttf');
             }
+
             html, body {
                 width: 100%;
                 height: 100%;
                 font-family: RobotoRegular;
             }
+            
+            .container {
+                background: url('!!IMAGE'); background-size: cover; display: flex; justify-content: center; align-items: center;
+            }
+
+            .term-container {
+                width: 1600px; background: #000000B3; border-radius: 30px; color: white; padding: 20px 100px 20px 100px;
+            }
+
+            .term-title {
+                font-size: 56px; font-family: RobotoBold;
+            }
+            
+            .term-content {
+                font-size: 36px; line-height: 1.4;
+            }
         </style>
     </head>
-    <body style="background: url('!!IMAGE'); background-size: cover; display: flex; justify-content: center; align-items: center; ">
-        <div style="width: 1600px; background: #000000B3; border-radius: 30px; color: white; padding: 20px 100px 20px 100px;">
-            <h1 style="font-size: 56px; font-family: RobotoBold;">!!TITLE</h1>
-            <p style="font-size: 36px; line-height: 1.4;">!!CONTENT</p>
+    <body class="container">
+        <div class="term-container">
+            <h1 class="term-title">!!TITLE</h1>
+            <p class="term-content">!!CONTENT</p>
         </div>
     </body>
 </html>
