@@ -94,7 +94,10 @@ Promise.all(
             });
             
             await page.goto("file://" + indexDestFilePath);
-            
+            await Promise.all([
+                page.waitForRequest(callback), 
+                page.waitForResponse(callback)
+            ]);
             await page.screenshot({path: wallpaperPath});
             await browser.close();
         }
