@@ -18,26 +18,97 @@
             }
             
             .container {
-                background: url('!!IMAGE'); background-size: cover; display: flex; justify-content: center; align-items: center;
+                background: url('!!IMAGE'); 
+                background-size: cover; 
+                display: flex; 
+                justify-content: center; 
+                align-items: center;
+                flex-direction: column;
             }
 
             .term-container {
-                width: 1600px; background: #000000B3; border-radius: 30px; color: white; padding: 20px 100px 20px 100px;
+                width: 1600px; 
+                background: #000000B3; 
+                border-radius: 30px; 
+                color: white; 
+                padding: 60px;
             }
 
             .term-title {
+                margin-top: 0;
                 font-size: 56px; font-family: RobotoBold;
             }
             
             .term-content {
                 font-size: 36px; line-height: 1.4;
+                margin-bottom: 0;
+            }
+
+            .abbr-container {
+                margin-top: 40px;
+                width: 1600px; 
+                background: #000000B3; 
+                border-radius: 30px; 
+                color: white; 
+                padding: 60px 60px 60px 60px;
+            }
+
+            .column {
+                width: 100%;
+                display: inline-block;
+                line-height: 1.4;
+                font-size: 32px;
+            }
+
+            .bold {
+                font-family: RobotoBold;
             }
         </style>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
     </head>
     <body class="container">
         <div class="term-container">
             <h1 class="term-title">!!TITLE</h1>
             <p class="term-content">!!CONTENT</p>
         </div>
+        <div class="abbr-container" id="abbr-container">
+        </div>
+        <script>
+            function randIndex(length) {
+                return Math.floor(Math.random()*length);
+            }
+            function shuffle(array) {
+                let currentIndex = array.length,  randomIndex;
+                while (currentIndex != 0) {
+                    randomIndex = Math.floor(Math.random() * currentIndex);
+                    currentIndex--;
+                    [array[currentIndex], array[randomIndex]] = [
+                    array[randomIndex], array[currentIndex]];
+                }
+                return array;
+            }
+            var abbrContainer = document.getElementById('abbr-container');
+            var abbrContent = '';
+            $.get("https://raw.githubusercontent.com/hzung/mac-auto-wallpaper/main/abbr.txt", function(data, status){
+                var amountAbbr = 12;
+                var terms = data.split('\n').filter(item => item.split('|').length == 2).map(item => {
+                    const tokens = item.split('|');
+                    const title = tokens[0];
+                    const content = tokens[1];
+                    return {
+                        title,
+                        content
+                    }
+                });
+                shuffle(terms);
+                var index = randIndex(terms.length - amountAbbr);
+                var subTerms = terms.slice(index, index + amountAbbr);
+                for(var i = 0; i < subTerms.length; i++) {
+                    let item = subTerms[i];
+                    abbrContent += '<div class="column"><span class="bold">' + item.title + '</span> - ' + item.content + '</div>'
+                }
+                abbrContainer.innerHTML = abbrContent;
+            });
+        </script>
     </body>
 </html>

@@ -22,18 +22,6 @@ function getRemoteContent() {
     })
 }
 
-function getRemoteAbbr() {
-    return new Promise((resolve, reject) => {
-        request('https://raw.githubusercontent.com/hzung/mac-auto-wallpaper/main/abbr.txt', { json: true }, (err, res, body) => {
-            if (err) {
-                reject(err);
-                return;
-            }
-            resolve(body);
-        });
-    })
-}
-
 function readContent(path) {
     try {  
         var data = fs.readFileSync(path, 'utf8');
@@ -62,8 +50,7 @@ function result_contain(index) {
 
 Promise.all(
     [
-        getRemoteContent(),
-        getRemoteAbbr()
+        getRemoteContent()
     ]).then((values) => 
     {
         let termContent = values[0];
