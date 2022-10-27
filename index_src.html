@@ -71,7 +71,7 @@
             <h1 class="term-title">!!TITLE</h1>
             <p class="term-content">!!CONTENT</p>
         </div>
-        <div class="abbr-container" id="abbr-container">
+        <!-- <div class="abbr-container" id="abbr-container"> -->
         </div>
         <script>
             function randIndex(length) {
@@ -87,28 +87,28 @@
                 }
                 return array;
             }
-            var abbrContainer = document.getElementById('abbr-container');
-            var abbrContent = '';
-            $.get("https://raw.githubusercontent.com/hzung/mac-auto-wallpaper/main/abbr.txt", function(data, status){
-                var amountAbbr = 12;
-                var terms = data.split('\n').filter(item => item.split('|').length == 2).map(item => {
-                    const tokens = item.split('|');
-                    const title = tokens[0];
-                    const content = tokens[1];
-                    return {
-                        title,
-                        content
-                    }
-                });
-                shuffle(terms);
-                var index = randIndex(terms.length - amountAbbr);
-                var subTerms = terms.slice(index, index + amountAbbr);
-                for(var i = 0; i < subTerms.length; i++) {
-                    let item = subTerms[i];
-                    abbrContent += '<div class="column"><span class="bold">' + item.title + '</span> - ' + item.content + '</div>'
-                }
-                abbrContainer.innerHTML = abbrContent;
-            });
+            // var abbrContainer = document.getElementById('abbr-container');
+            // var abbrContent = '';
+            // $.get("https://raw.githubusercontent.com/hzung/mac-auto-wallpaper/main/abbr.txt", function(data, status){
+            //     var amountAbbr = 12;
+            //     var terms = data.split('\n').filter(item => item.split('|').length == 2).map(item => {
+            //         const tokens = item.split('|');
+            //         const title = tokens[0];
+            //         const content = tokens[1];
+            //         return {
+            //             title,
+            //             content
+            //         }
+            //     });
+            //     shuffle(terms);
+            //     var index = randIndex(terms.length - amountAbbr);
+            //     var subTerms = terms.slice(index, index + amountAbbr);
+            //     for(var i = 0; i < subTerms.length; i++) {
+            //         let item = subTerms[i];
+            //         abbrContent += '<div class="column"><span class="bold">' + item.title + '</span> - ' + item.content + '</div>'
+            //     }
+            //     abbrContainer.innerHTML = abbrContent;
+            // });
         </script>
     </body>
 </html>
